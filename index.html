@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon link -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <!-- custom stylesheets links -->
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/reused__styles.css" />
+    <link rel="stylesheet" href="/styles/utility__classes.css" />
+    <link rel="stylesheet" href="/styles/global__custom__properties.css" />
+    <link rel="stylesheet" href="/styles/main__styles.css" />
+    <link rel="stylesheet" href="/Font/font.css" />
+
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body>
+    
+    <!-- main container -->
+    <div class="main__container margin-inline-auto">
+      <div class="notifications__component">
+        <div
+          class="notification__bar flex align-items-center justify-content-between"
+        >
+          <div class="notification__box flex align-items-center">
+            <h2 class="notification__title">Notifications</h2>
+            <span class="notification__count grid place-content-center"
+              >3
+            </span>
+          </div>
+          <span class="mark-all-read">Mark all as read </span>
+        </div>
+        <ul class="notifications__list grid">
+          <li class="notification__card unread-card">
+            <div class="wrapper flex align-items-start">
+              <div class="user__avatar ">
+                <img src="/assets/images/avatar-mark-webber.webp" />
+              </div>
+
+              <div class="notification__content grid">
+                <p class="notification__text">
+                  <span class="user__name">Mark Webber</span> reacted to your
+                  recent post
+                  <span class="emphasized">My first tournament today!</span>
+                </p>
+
+                <time class="notification__passedtime">1m ago</time>
+              </div>
+            </div>
+          </li>
+           
+          <li class="notification__card unread-card">
+            <div class="wrapper flex align-items-start">
+              <div class="user__avatar">
+                <img src="assets/images/avatar-angela-gray.webp">
+              </div>
+
+              <div class="notification__content grid">
+                <p class="notification__text">
+                  <span class="user__name">Angela Gray 
+                  </span> 
+                  followed you
+                </p>
+
+                <time class="notification__passedtime">1m ago</time>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+  </body>
+</html>

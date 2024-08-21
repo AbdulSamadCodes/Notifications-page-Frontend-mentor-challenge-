@@ -1,0 +1,88 @@
+/* custom properties */
+:root {
+  /* spacings */
+  --notification-box-gap:1rem;
+  --notification-card-gap:1rem;
+  --notifications-list-gap:1.5rem;
+  --notifications-list-margin-top:3rem;
+
+  /* widths */
+  --user-avatar-width:40px;
+
+  /*typography */
+  --fs-notification-title:1.8rem;
+  --fs-user-name:1.5rem;
+  --fs-notification-text:1.5rem;
+}
+
+/* main container */
+.main__container {
+  max-width:var(--main-container-max-width);
+  padding-inline:var(--main-container-padding);
+  margin-block:var(--main-container-block-margin);
+}
+
+/* notification bar */
+.notification__box {
+  gap:var(--notification-box-gap);
+}
+
+.notification__title {
+   font-size:var(--fs-notification-title); 
+}
+
+.notification__count {
+  background-color:var(--clr-blue);
+  padding:0.3rem 0.8rem;
+  border-radius:0.5rem;
+  color:var(--clr-white);
+  font-weight:700;
+}
+
+/* notification list */
+.notifications__list {
+  margin-block-start:var(--notifications-list-margin-top);
+  gap:var(--notifications-list-gap);
+} 
+
+.notification__card {
+  padding:0.8rem 1.2rem;
+}
+
+.notification__card > .wrapper {
+  gap:var(--notification-card-gap);
+}
+
+.notification__content {
+  gap:0.5rem;
+}
+
+.user__avatar {
+  width:var(--user-avatar-width);
+  border-radius:50%;
+}
+
+.user__avatar img {
+  object-fit:cover;
+}
+
+.user__name {
+  color:var(--clr-very-dark-blue);
+  font-size:var(--fs-user-name);
+  font-weight:700;
+}
+
+.notification__text {
+  color:var(--clr-dark-grayish-blue);
+  font-size:var(--fs-notification-text);  
+  line-height:1.3;
+}
+
+.emphasized {
+  font-weight:700;
+}
+
+.unread-card {
+  background-color:var(--clr-very-light-grayish-blue);
+  border-radius:0.8rem;
+}

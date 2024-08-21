@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+a,
+input {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+button,
+input {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+form,
+input,
+button,
+select,
+option {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 1px solid black;
+  outline-offset: -3px;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 30px;
+  scrollbar-width: thin;
+}
+
+body {
+  background-color: var(--clr-very-light-grayish-blue);
+  font-family:var(--ff-Plus-Jakarta);
+  font-size: 1.5rem;
+}

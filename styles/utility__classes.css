@@ -1,0 +1,55 @@
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content:space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-start {
+  align-items: start;
+}
+
+.place-content-center {
+  place-content:center;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed  {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.margin-inline-auto {
+  margin-inline: auto;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.overflow-hidden {
+  overflow:hidden;
+}
