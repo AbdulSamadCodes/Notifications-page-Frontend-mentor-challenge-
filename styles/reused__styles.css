@@ -16,3 +16,16 @@
 .message {
   font-weight:600;
 }
+
+.user__name,
+.emphasized,
+.mark-all-read {
+  cursor:pointer;
+  
+  transition:color 300ms ease;
+}
+
+:is(.user__name,.emphasized,.mark-all-read):hover {
+  color:var(--clr-blue);
+}
+
