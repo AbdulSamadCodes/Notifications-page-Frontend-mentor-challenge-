@@ -3,16 +3,22 @@
   /* spacings */
   --notification-box-gap:1rem;
   --notification-card-gap:1rem;
+  --notification-card-padding:1.2rem;
   --notifications-list-gap:1.5rem;
   --notifications-list-margin-top:3rem;
 
   /* widths */
   --user-avatar-width:40px;
 
+  /* border radius */
+  --unread-card-radius:0.8rem;
+
   /*typography */
   --fs-notification-title:1.8rem;
   --fs-user-name:1.5rem;
   --fs-notification-text:1.5rem;
+  --fs-emphasized:1.6rem;
+  --fs-notification-passedtime:1.3rem;
 }
 
 /* main container */
@@ -46,7 +52,7 @@
 } 
 
 .notification__card {
-  padding:0.8rem 1.2rem;
+  padding:var(--notification-card-padding);
 }
 
 .notification__card > .wrapper {
@@ -60,6 +66,7 @@
 .user__avatar {
   width:var(--user-avatar-width);
   border-radius:50%;
+  flex-shrink:0;
 }
 
 .user__avatar img {
@@ -79,10 +86,28 @@
 }
 
 .emphasized {
-  font-weight:700;
+  font-size:var(--fs-emphasized);
+  font-weight:800;
+}
+
+.emphasized-primary {
+  color:var(--clr-blue);
+}
+
+.notification__passedtime {
+  font-size:var(--fs-notification-passedtime);
+  color:var(--clr-grayish-blue);    
 }
 
 .unread-card {
-  background-color:var(--clr-very-light-grayish-blue);
-  border-radius:0.8rem;
+  background-color:var(--clr-grayish-blue-low);
+  border-radius:var(--unread-card-radius);
 }
+
+.message {
+  padding:var(--notification-card-padding);
+  border:1px solid var(--clr-grayish-blue);
+  border-radius:inherit;  
+}
+
+

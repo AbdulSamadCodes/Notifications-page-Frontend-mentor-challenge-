@@ -1,16 +1,18 @@
 .user__name,
-.notification__text {
+.notification__text,
+.message {
   font-size:var(--fs-user-name);
 }
 
 .notification__text,
 .mark-all-read,
-.notification__passedtime {
+.message {
   color:var(--clr-dark-grayish-blue);
 }
 
 .notification__text,  
-.notification__passedtime, 
-.mark-all-read {
+.mark-all-read,
+.notification__passedtime,
+.message {
   font-weight:600;
 }

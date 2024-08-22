@@ -22,7 +22,6 @@
     <title>Frontend Mentor | Notifications page</title>
   </head>
   <body>
-    
     <!-- main container -->
     <div class="main__container margin-inline-auto">
       <div class="notifications__component">
@@ -37,10 +36,12 @@
           </div>
           <span class="mark-all-read">Mark all as read </span>
         </div>
+
         <ul class="notifications__list grid">
+
           <li class="notification__card unread-card">
             <div class="wrapper flex align-items-start">
-              <div class="user__avatar ">
+              <div class="user__avatar">
                 <img src="/assets/images/avatar-mark-webber.webp" />
               </div>
 
@@ -55,17 +56,16 @@
               </div>
             </div>
           </li>
-           
+
           <li class="notification__card unread-card">
             <div class="wrapper flex align-items-start">
               <div class="user__avatar">
-                <img src="assets/images/avatar-angela-gray.webp">
+                <img src="assets/images/avatar-angela-gray.webp" />
               </div>
 
               <div class="notification__content grid">
                 <p class="notification__text">
-                  <span class="user__name">Angela Gray 
-                  </span> 
+                  <span class="user__name">Angela Gray </span>
                   followed you
                 </p>
 
@@ -74,9 +74,51 @@
             </div>
           </li>
 
+          <li class="notification__card unread-card">
+            <div class="wrapper flex align-items-start">
+              <div class="user__avatar">
+                <img src="assets/images/avatar-jacob-thompson.webp" />
+              </div>
+
+              <div class="notification__content grid">
+                <p class="notification__text">
+                  <span class="user__name">Jacob Thompson </span>
+                  has joined your group
+                  <span class="emphasized emphasized-primary">Chess Club</span>
+                </p>
+                <time class="notification__passedtime">1 day ago</time>
+              </div>
+            </div>
+          </li>
+
+          <li class="notification__card">
+            <div class="wrapper flex align-items-start">
+              <div class="user__avatar">
+                <img src="assets/images/avatar-rizky-hasanuddin.webp" />
+              </div>
+
+              <div class="notification__content grid">
+                <p class="notification__text">
+                  <span class="user__name">Rizky Hasanuddin </span>
+                  sent you a private message<span
+                    class="emphasized emphasized-primary"
+                  ></span>
+                </p>
+                <time class="notification__passedtime">5 days ago</time>
+
+                <p class= "message">
+                  Hello, thanks for setting up the Chess Club. I've been a
+                  member for a few weeks now and I'm already having lots of fun
+                  and improving my game.
+                </p>
+
+              </div>
+            </div>
+          </li>
+
         </ul>
       </div>
     </div>
-
+    
   </body>
 </html>

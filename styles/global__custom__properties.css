@@ -1,6 +1,6 @@
 :root {
   /* widths */
-  --main-container-max-width:400px;
+  --main-container-max-width:380px;
   --main-container-padding:2rem;
   --main-container-block-margin:2rem;
 
@@ -14,6 +14,7 @@
   --clr-light-grayish-blue_2: hsl(205, 33%, 90%);
   --clr-dark-grayish-blue: hsl(219, 12%, 42%);
   --clr-grayish-blue: hsl(219, 14%, 63%);
+  --clr-grayish-blue-low:hsl(219,20%,63%,0.1);
   --clr-very-dark-blue: hsl(224, 21%, 14%);
 
   /* typography */
